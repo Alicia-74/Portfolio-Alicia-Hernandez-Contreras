@@ -50,4 +50,4 @@ Desde la raíz del proyecto:
 
 ```bash
 docker compose up --build
-```
+````
