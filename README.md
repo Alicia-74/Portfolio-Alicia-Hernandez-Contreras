@@ -34,6 +34,48 @@ El proyecto está dockerizado parcialmente:
 
 ---
 
+## 🧭 Uso de la aplicación
+
+Este portfolio está diseñado para ser simple e intuitivo. Puedes navegar por las diferentes secciones desde la propia página:
+
+- **Inicio (Hero):**  
+  Presentación general, tecnologías principales y acceso rápido a contacto.
+
+- **Experiencia:**  
+  Muestra los proyectos y experiencia profesional desarrollada.
+
+- **Skills:**  
+  Tecnologías y herramientas con las que trabajo.
+
+- **Formación:**  
+  Estudios y aprendizaje técnico.
+
+- **Contacto (Footer):**  
+  - Acceso directo para enviar un email  
+  - Teléfono (clicable en móvil y escritorio)  
+  - Ubicación en Sevilla  
+  - Enlaces a GitHub y LinkedIn  
+
+---
+
+## ⚡ Interacciones
+
+- El botón **“Ver experiencia”** hace scroll a la sección correspondiente  
+- El botón **“Contactar”** abre directamente el correo (Gmail)  
+- Los enlaces del footer permiten contacto rápido, ir a la sección correspondiente y acceso a redes.
+
+---
+
+## 📱 Responsive
+
+La web está adaptada para:
+
+- Escritorio  
+- Tablet  
+- Móvil  
+
+---
+
 ## 🔌 Conexión entre servicios
 
 El backend se conecta a MySQL externo usando:
