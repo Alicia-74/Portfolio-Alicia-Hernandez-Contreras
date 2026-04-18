@@ -262,7 +262,20 @@
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .footer-container {
-    flex-direction: column;
-    gap: 20px;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .footer-links,
+  .footer-social,
+  .footer-contact,
+  .footer-brand {
+    align-items: center;
+  }
+
+  .footer-contact a,
+  .footer-social a {
+    justify-content: center;
   }
 }
