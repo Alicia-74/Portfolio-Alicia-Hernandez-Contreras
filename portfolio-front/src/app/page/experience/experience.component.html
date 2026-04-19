@@ -1,0 +1,43 @@
+<div class="container experiencia-container">
+  <h1>Experiencia Laboral</h1>
+  
+  <div class="experiencia-grid">
+    <div class="experiencia-card" *ngFor="let exp of experiences">
+      
+      <div class="card-header">
+        <div class="header-left">
+          <div class="icono-empresa">
+            <img src="Logo-Soltel-Group.png" width="60" fill="none">
+          </div>
+          <div>
+            <h3 class="empresa">{{ exp.company }}</h3>
+            <p class="rol">{{ exp.role }}</p>
+          </div>
+        </div>
+        
+        <div class="fechas">
+          <span class="fecha-inicio">{{ exp.start_Date | date:'MMM yyyy' }}</span>
+          <span class="fecha-separador">—</span>
+          <span class="fecha-fin" [class.actual]="exp.current_job">
+            <!-- 👇 current_job desde BBDD: si true → "Actualidad", si false → muestra end_date -->
+            {{ exp.current_job ? 'Actualidad' : (exp.end_Date | date:'MMM yyyy') }}
+          </span>
+        </div>
+      </div>
+      
+      <div class="card-body">
+        <ul class="descripcion-lista">
+          <li *ngFor="let linea of getDescripcion(exp.description)">
+            {{ linea }}
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="empty-state" *ngIf="experiences.length === 0">
+    <div class="empty-icon">💼</div>
+    <p>Todavía no hay experiencias cargadas</p>
+  </div>
+</div>
