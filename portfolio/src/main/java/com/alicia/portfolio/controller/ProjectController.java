@@ -12,7 +12,6 @@ import com.alicia.portfolio.service.ProjectService;
 
 @RestController
 @RequestMapping("/api/projects")
-@CrossOrigin(origins = "http://localhost:4200")
 public class ProjectController {
 
     private final ProjectService service;
