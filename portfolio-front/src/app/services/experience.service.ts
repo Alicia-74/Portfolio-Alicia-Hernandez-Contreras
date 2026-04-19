@@ -8,7 +8,7 @@ import { Experience } from '../models/experience';
 })
 export class ExperienceService {
 
-  private apiUrl = 'http://localhost:8080/api/experiences';
+  private apiUrl = 'https://portfolio-alicia-hernandez-contreras.onrender.com/api/experiences';
 
   constructor(private http: HttpClient) {}
 

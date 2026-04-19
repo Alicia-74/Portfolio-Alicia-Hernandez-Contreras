@@ -8,7 +8,7 @@ import { Formacion } from '../models/formacion';
 })
 export class FormacionService {
 
-  private apiUrl = 'http://localhost:8080/api/formacion';
+  private apiUrl = 'https://portfolio-alicia-hernandez-contreras.onrender.com/api/formacion';
 
   constructor(private http: HttpClient) {}
 
