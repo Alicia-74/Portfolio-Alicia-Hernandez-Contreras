@@ -8,7 +8,7 @@ import { Project } from '../models/project';
 })
 export class ProjectService {
 
-  private apiUrl = 'http://localhost:8080/api/projects';
+  private apiUrl = 'https://portfolio-alicia-hernandez-contreras.onrender.com/api/projects';
 
   constructor(private http: HttpClient) {}
 
