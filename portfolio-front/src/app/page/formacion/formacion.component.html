@@ -1,0 +1,45 @@
+<div class="container formacion-container">
+  <h1>Formación</h1>
+  
+  <div class="formacion-grid">
+    <div class="formacion-card" *ngFor="let f of forma">
+      
+      <div class="card-header">
+        <div class="header-left">
+          <div class="icono-empresa">
+            <img *ngIf="f.start_Date === 2019" src="logo-aracena.png" width="70"/>
+            <img *ngIf="f.start_Date === 2022" src="logo-vedruna.jpg" width="70"/>
+          </div>
+          <div>
+            <h3 class="empresa">{{ f.escuela }}</h3>
+            <p class="rol">{{ f.titulacion }}</p>
+          </div>
+        </div>
+        
+        <div class="fechas">
+          <span class="fecha-inicio">{{ f.start_Date}}</span>
+          <span class="fecha-separador">—</span>
+          <span class="fecha-fin" [class.actual]="f.current_job">
+            <!-- 👇 current_job desde BBDD: si true → "Actualidad", si false → muestra end_date -->
+            {{ f.current_job ? 'Actualidad' : (f.end_Date) }}
+          </span>
+        </div>
+      </div>
+      
+      <div class="card-body">
+        <ul class="descripcion-lista">
+          <li *ngFor="let linea of getDescripcion(f.description)">
+            {{ linea }}
+          </li>
+        </ul>
+      </div>
+      
+      
+    </div>
+  </div>
+  
+  <div class="empty-state" *ngIf="forma.length === 0">
+    <div class="empty-icon">💼</div>
+    <p>Todavía no hay formaciones cargadas</p>
+  </div>
+</div>

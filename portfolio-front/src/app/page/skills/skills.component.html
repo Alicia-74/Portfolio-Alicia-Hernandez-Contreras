@@ -1,0 +1,25 @@
+<div class="container">
+
+  <h1>Skills</h1>
+  <!-- CORE -->
+  <section>
+    <h2>Tecnologías utilizadas en entorno profesional</h2>
+    <div class="grid">
+      <div class="card" *ngFor="let skill of coreSkills">
+        {{ skill.name }}
+      </div>
+    </div>
+  </section>
+
+  <!-- OTHER -->
+  <section>
+    <h2>Otras tecnologías y conocimientos</h2>
+    <p></p>
+    <div class="grid">
+      <div class="card" *ngFor="let skill of otherSkills">
+        {{ skill.name }}
+      </div>
+    </div>
+  </section>
+
+</div>
