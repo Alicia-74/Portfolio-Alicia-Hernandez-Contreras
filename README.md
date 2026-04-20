@@ -2,8 +2,9 @@
 
 <img width="610" height="454" alt="portfolio visual front" src="https://github.com/user-attachments/assets/f2fe3903-f965-4454-8001-bbe342c27cc8" />
 
-
+<br>
 Proyecto full stack de portfolio personal desarrollado con:
+<br>
 
 - 🎨 Frontend: Angular  
 - ⚙️ Backend: Spring Boot (Java)  
@@ -15,10 +16,11 @@ Proyecto full stack de portfolio personal desarrollado con:
 ## 👩‍💻 Sobre el proyecto
 
 Este portfolio es una aplicación full stack donde muestro mi experiencia como desarrolladora, formación, habilidades técnicas y vías de contacto.
-
+<br>
 <img width="365" height="173" alt="arquitectura portfolio" src="https://github.com/user-attachments/assets/3699d7e7-d60e-4861-9748-fa1cd9e41a95" />
+<br>
 La arquitectura está separada en:
-
+<br>
 - Frontend (Angular) → interfaz de usuario  
 - Backend (Spring Boot) → API REST
 - Base de datos Postgresql → externa (no dockerizada)
