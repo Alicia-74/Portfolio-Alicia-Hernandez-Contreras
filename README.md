@@ -86,15 +86,6 @@ La web está adaptada para:
 - Móvil  
 
 ---
-
-## 🔌 Conexión entre servicios
-
-El backend se conecta a MySQL externo usando:
-
-```properties
-spring.datasource.url=jdbc:mysql://host.docker.internal:3306/portfolio_db
-```
-
 ## 🚀 Cómo levantar el proyecto
 
 ### 🐳 1. Levantar frontend + backend con Docker
