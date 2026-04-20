@@ -14,10 +14,9 @@ Proyecto full stack de portfolio personal desarrollado con:
 
 ## 👩‍💻 Sobre el proyecto
 
-<img width="365" height="173" alt="arquitectura portfolio" src="https://github.com/user-attachments/assets/3699d7e7-d60e-4861-9748-fa1cd9e41a95" />
-
 Este portfolio es una aplicación full stack donde muestro mi experiencia como desarrolladora, formación, habilidades técnicas y vías de contacto.
 
+<img width="365" height="173" alt="arquitectura portfolio" src="https://github.com/user-attachments/assets/3699d7e7-d60e-4861-9748-fa1cd9e41a95" />
 La arquitectura está separada en:
 
 - Frontend (Angular) → interfaz de usuario  
