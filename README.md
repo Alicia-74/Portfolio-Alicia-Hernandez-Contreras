@@ -17,7 +17,7 @@ La arquitectura está separada en:
 
 - Frontend (Angular) → interfaz de usuario  
 - Backend (Spring Boot) → API REST  
-- Base de datos MySQL → externa (no dockerizada)
+- Base de datos Postgresql → externa (no dockerizada)
 
 ---
 
@@ -30,7 +30,7 @@ El proyecto está dockerizado parcialmente:
 - Backend (Spring Boot)
 
 ### ❌ No incluido en Docker
-- MySQL (se ejecuta servidor externo)
+- Postgresql (se ejecuta servidor externo)
 
 ---
 
@@ -38,7 +38,7 @@ El proyecto está dockerizado parcialmente:
 
 Este portfolio está diseñado para ser simple e intuitivo. Puedes navegar por las diferentes secciones desde la propia página:
 
-- **Inicio (Hero):**  
+- **Inicio:**  
   Presentación general, tecnologías principales y acceso rápido a contacto.
 
 - **Experiencia:**  
@@ -63,6 +63,7 @@ Este portfolio está diseñado para ser simple e intuitivo. Puedes navegar por l
 - El botón **“Ver experiencia”** hace scroll a la sección correspondiente  
 - El botón **“Contactar”** abre directamente el correo (Gmail)  
 - Los enlaces del footer permiten contacto rápido, ir a la sección correspondiente y acceso a redes.
+- En los enlaces de contacto puedes ver el mapa de la ubicación, y abre directamente el correo (Gmail) y la llamada.
 
 ---
 
