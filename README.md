@@ -24,7 +24,9 @@ La arquitectura está separada en:
 - Frontend (Angular) → interfaz de usuario  
 - Backend (Spring Boot) → API REST
 - Base de datos Postgresql → externa (no dockerizada)
-- Documentación API → Swagger <img width="449" height="470" alt="swagger portfolio" src="https://github.com/user-attachments/assets/66702546-c6b3-4458-9a7b-2f0dbdb492ce" />
+- Documentación API → Swagger
+<br>
+  <img width="449" height="470" alt="swagger portfolio" src="https://github.com/user-attachments/assets/66702546-c6b3-4458-9a7b-2f0dbdb492ce" />
 
 
 ---
