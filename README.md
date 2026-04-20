@@ -4,7 +4,7 @@ Proyecto full stack de portfolio personal desarrollado con:
 
 - 🎨 Frontend: Angular  
 - ⚙️ Backend: Spring Boot (Java)  
-- 🐬 Base de datos: MySQL (local o externa)  
+- 🐬 Base de datos: Postgresql (externa)  
 - 🐳 Contenedores: Docker (frontend + backend)
 
 ---
