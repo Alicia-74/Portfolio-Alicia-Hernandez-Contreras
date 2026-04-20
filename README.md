@@ -2,7 +2,7 @@
 
 <img width="610" height="454" alt="portfolio visual front" src="https://github.com/user-attachments/assets/f2fe3903-f965-4454-8001-bbe342c27cc8" />
 
-
+<br>
 Proyecto full stack de portfolio personal desarrollado con:
 <br>
 
