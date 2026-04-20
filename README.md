@@ -2,7 +2,6 @@
 
 <img width="610" height="454" alt="portfolio visual front" src="https://github.com/user-attachments/assets/f2fe3903-f965-4454-8001-bbe342c27cc8" />
 
-<br>
 Proyecto full stack de portfolio personal desarrollado con:
 <br>
 
@@ -23,10 +22,10 @@ La arquitectura está separada en:
 <br>
 - Frontend (Angular) → interfaz de usuario  
 - Backend (Spring Boot) → API REST
+- Documentación API → Swagger <img width="449" height="470" alt="swagger portfolio" src="https://github.com/user-attachments/assets/66702546-c6b3-4458-9a7b-2f0dbdb492ce" />
 - Base de datos Postgresql → externa (no dockerizada)
-- Documentación API → Swagger
-<br>
-  <img width="449" height="470" alt="swagger portfolio" src="https://github.com/user-attachments/assets/66702546-c6b3-4458-9a7b-2f0dbdb492ce" />
+
+<img width="365" height="173" alt="arquitectura portfolio" src="https://github.com/user-attachments/assets/3699d7e7-d60e-4861-9748-fa1cd9e41a95" />
 
 
 ---
