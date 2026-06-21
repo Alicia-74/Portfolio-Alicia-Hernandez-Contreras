@@ -16,11 +16,8 @@
         </div>
         
         <div class="fechas">
-          <span class="fecha-inicio">{{ exp.start_Date | date:'MMM yyyy' }}</span>
-          <span class="fecha-separador">—</span>
-          <span class="fecha-fin" [class.actual]="exp.current_job">
+          <span class="fecha-fin" [class.actual]="exp.current_job">{{ exp.current_job }}
             <!-- 👇 current_job desde BBDD: si true → "Actualidad", si false → muestra end_date -->
-            {{ exp.current_job ? 'Actualidad' : (exp.end_Date | date:'MMM yyyy') }}
           </span>
         </div>
       </div>

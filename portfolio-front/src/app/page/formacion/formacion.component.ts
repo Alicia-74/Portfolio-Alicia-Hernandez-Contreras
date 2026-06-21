@@ -3,6 +3,7 @@ import { Formacion } from '../../models/formacion';
 import { FormacionService } from '../../services/formacion.service';
 import { CommonModule } from '@angular/common';
 import { ChangeDetectorRef } from '@angular/core';
+import { FORMACION } from '../../const/formacion.data';
 
 @Component({
   selector: 'app-formacion',
@@ -12,19 +13,9 @@ import { ChangeDetectorRef } from '@angular/core';
   styleUrls: ['./formacion.component.css'],
 })
 export class FormacionComponent {
-  forma: Formacion[] = [];
+  forma = FORMACION;
 
-  constructor(private service: FormacionService, private cd: ChangeDetectorRef) {}
-
-  ngOnInit(): void {
-    this.service.getFormacion().subscribe(data => {
-      console.log('DATOS BBDD 👉', data);
-      this.forma = data.sort((a, b) => a.start_Date - b.start_Date);
-      this.cd.detectChanges();
-    });
-  }
-
-  getDescripcion(desc: string): string[] {
+  getDescripcion(desc?: string): string[] {
       if (!desc) return [];
       return desc
         .split('.')
