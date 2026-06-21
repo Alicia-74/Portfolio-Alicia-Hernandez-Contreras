@@ -7,6 +7,6 @@ export const EXPERIENCES = [
 Trabajo con Java y Spring Boot en backend y Angular en frontend, utilizando bases de datos Oracle y metodologías ágiles (SCRUM).
 
 Desarrollo nuevas funcionalidades, corrección de errores y mejora de sistemas existentes, enfocándome en la implementación y mantenimiento del sistema.`,
-    current_job: true
+    current_job: 'En activo'
   }
 ];

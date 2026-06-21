@@ -1,0 +1,34 @@
+export const SKILLS = [
+  // CORE
+  { name: 'Java', category: 'Backend', type: 'CORE' },
+  { name: 'Spring Boot', category: 'Backend', type: 'CORE' },
+  { name: 'Microservices', category: 'Architecture', type: 'CORE' },
+  { name: 'Angular', category: 'Frontend', type: 'CORE' },
+  { name: 'Oracle', category: 'Database', type: 'CORE' },
+  { name: 'Git', category: 'Tools', type: 'CORE' },
+  { name: 'Swagger', category: 'API Documentation', type: 'CORE' },
+  { name: 'Jenkins', category: 'CI/CD', type: 'CORE' },
+  { name: 'JUnit', category: 'Testing', type: 'CORE' },
+  { name: 'Mockito', category: 'Testing', type: 'CORE' },
+    { name: 'Metodología Agile SCRUM', category: 'Methodology', type: 'CORE' },
+  { name: 'Spring Security', category: 'Backend', type: 'CORE' },
+
+  // OTHER
+  { name: 'React', category: 'Frontend', type: 'OTHER' },
+  { name: 'JavaScript', category: 'Frontend', type: 'OTHER' },
+  { name: 'MySQL', category: 'Database', type: 'OTHER' },
+  { name: 'Astro', category: 'Frontend', type: 'OTHER' },
+  { name: 'Tailwind', category: 'Frontend', type: 'OTHER' },
+  { name: 'Bootstrap', category: 'Frontend', type: 'OTHER' },
+  { name: 'CSS', category: 'Frontend', type: 'OTHER' },
+  { name: 'HTML', category: 'Frontend', type: 'OTHER' },
+  { name: 'Storybook', category: 'Frontend Tools', type: 'OTHER' },
+  { name: 'Starlight', category: 'Documentation', type: 'OTHER' },
+  { name: 'Figma', category: 'Design', type: 'OTHER' },
+  { name: 'Express.js', category: 'Backend', type: 'OTHER' },
+  { name: 'PayPal Integration', category: 'Payments', type: 'OTHER' },
+  { name: 'PHP', category: 'Backend', type: 'OTHER' },
+  { name: 'Docker', category: 'DevOps', type: 'OTHER' },
+  { name: 'Sonar', category: 'Code Quality', type: 'OTHER' },
+  { name: 'Quarkus', category: 'Backend', type: 'OTHER' }
+];
