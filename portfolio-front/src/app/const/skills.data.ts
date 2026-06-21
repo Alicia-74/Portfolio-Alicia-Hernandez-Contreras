@@ -17,6 +17,7 @@ export const SKILLS = [
   { name: 'React', category: 'Frontend', type: 'OTHER' },
   { name: 'JavaScript', category: 'Frontend', type: 'OTHER' },
   { name: 'MySQL', category: 'Database', type: 'OTHER' },
+  { name: 'PostgreSQL', category: 'Database', type: 'OTHER' },
   { name: 'Astro', category: 'Frontend', type: 'OTHER' },
   { name: 'Tailwind', category: 'Frontend', type: 'OTHER' },
   { name: 'Bootstrap', category: 'Frontend', type: 'OTHER' },
