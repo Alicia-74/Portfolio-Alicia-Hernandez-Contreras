@@ -3,6 +3,7 @@ import { Experience } from '../../models/experience';
 import { ExperienceService } from '../../services/experience.service';
 import { CommonModule } from '@angular/common';
 import { ChangeDetectorRef } from '@angular/core';
+import { EXPERIENCES } from '../../const/experiences.data';
 
 @Component({
   selector: 'app-experience',
@@ -12,17 +13,8 @@ import { ChangeDetectorRef } from '@angular/core';
   styleUrls: ['./experience.component.css'],
 })
 export class ExperienceComponent {
-  experiences: Experience[] = [];
-
-  constructor(private service: ExperienceService, private cd: ChangeDetectorRef) {}
-
-  ngOnInit(): void {
-    this.service.getExperiences().subscribe(data => {
-      this.experiences = data;
-      this.cd.detectChanges();
-    });
-  }
-
+  experiences = EXPERIENCES;
+  
   getDescripcion(desc: string): string[] {
       if (!desc) return [];
       return desc
