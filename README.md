@@ -1,6 +1,6 @@
 # 🚀 Portfolio – Alicia Hernández Contreras
 
-<img width="610" height="454" alt="portfolio visual front" src="https://github.com/user-attachments/assets/f2fe3903-f965-4454-8001-bbe342c27cc8" />
+<img width="671" height="468" alt="inicio-porfolio-alicia" src="https://github.com/user-attachments/assets/2b3a53fb-d5a7-4ab8-a3f1-b699cc0a25ca" />
 
 <br>
 Proyecto full stack de portfolio personal desarrollado con:
